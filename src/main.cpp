@@ -15,6 +15,11 @@ class $modify(GameObject)
         }
 	}
 
+	void setOpacity(char opacity)
+	{
+		GameObject::setOpacity(255);
+	}
+
 	
 };
 
